@@ -1,0 +1,45 @@
+.icon_blue {
+    color: blue;
+}
+
+.icon_yellow {
+    color: yellow;
+}
+
+body {
+    font-size: 22px;
+    color: cornflowerblue;
+}
+
+h1 {
+    font-size: 3rem;
+    color: cornflowerblue;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: cornflowerblue;
+}
+
+h3 {
+    font-size: 2rem;
+    color: cornflowerblue;
+}
+
+@media all and (max-device-width: 720px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-device-width: 640px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-device-width: 320px) {
+    body {
+        font-size: 14px;
+    }
+}
